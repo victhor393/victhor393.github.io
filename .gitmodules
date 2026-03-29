@@ -1,0 +1,9 @@
+[submodule "themes/universal"]
+	path = themes/universal
+	url = https://github.com/devcows/hugo-universal-theme.git
+[submodule "themes/doks"]
+	path = themes/doks
+	url = https://github.com/thuliteio/doks.git
+[submodule "themes/hugo-flex"]
+	path = themes/hugo-flex
+	url = https://github.com/ldeso/hugo-flex.git

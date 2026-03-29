@@ -1,0 +1,45 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = 'hugo-flex'
+
+[params]
+    color = 'teal'
+    width = '42rem'
+    divider = '\2500\2500'
+    footer = '>-    Except where otherwise noted, content on this site is licensed under a &#32;    <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative    Commons Attribution 4.0 International License</a>.'
+    rss = 'To subscribe to this RSS feed, copy its address and paste it into your    favorite feed reader.'
+    favicon = 'false'
+    noclasses = '&nc false'
+    katex = '0.16.22'
+    headingoffset = '0'
+    linkicons = 'false'
+    summaries = 'false'
+    schema = 'false'
+    opengraph = 'false'
+    twittercards = 'false'
+
+    [params.utterances]
+         repo = ''
+         issueterm = ''
+         theme = ''
+   
+    [params.netlify]
+         honeypot = 'false'
+         recaptcha = 'false'
+
+[markup]
+    [markup.highlight]
+         noClasses = 'false'
+    [markup.goldmark]
+         [markup.goldmark.extensions]
+              [markup.goldmark.extensions.passthrough]
+                  enable = 'false'
+                  [markup.goldmark.extensions.passthrough.delimiters]
+                      block = [ '\[', '\]', '$$', '$$' ]
+                      inline = [ '\(', '\)' ]
+
+[menu]
+    main = [{ 'name' = 'About', 'pageRef' = '/about', 'weight' = '1' }]
+
+                        
