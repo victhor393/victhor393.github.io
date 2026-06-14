@@ -1,5 +1,5 @@
 +++
-date = '2026-03-29T10:58:52-03:00'
+date = '2026-06-14T14:45:00-03:00'
 draft = false
 title = 'WatchGuard Firebox T40 notes'
 +++
