@@ -1,18 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.victhor.net.br/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Victhor Foster'
 theme = 'hugo-flex'
 
 [params]
     color = 'teal'
     width = '42rem'
     divider = '\2500\2500'
-    footer = '>-    Except where otherwise noted, content on this site is licensed under a &#32;    <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative    Commons Attribution 4.0 International License</a>.'
-    rss = 'To subscribe to this RSS feed, copy its address and paste it into your    favorite feed reader.'
+    footer = '(c) 2025 Victhor Foster. All rights reserved.'
+    # rss = 'To subscribe to this RSS feed, copy its address and paste it into your    favorite feed reader.'
     favicon = 'false'
     noclasses = '&nc false'
     katex = '0.16.22'
-    headingoffset = '0'
     linkicons = 'false'
     summaries = 'false'
     schema = 'false'
@@ -40,6 +39,7 @@ theme = 'hugo-flex'
                       inline = [ '\(', '\)' ]
 
 [menu]
-    main = [{ 'name' = 'About', 'pageRef' = '/about', 'weight' = '1' }]
+    main = [#{ name = 'About', pageRef = '/about', weight = '1' }, 
+            { name = 'Posts', pageRef = '/post', weight = '2' } ]
 
                         
